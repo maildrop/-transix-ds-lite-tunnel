@@ -1,0 +1,15 @@
+
+[Unit]
+Description=transix.jp DS-Lite Tunnel Enabler
+After=network.target network-online.target nss-lookup.target
+Before=squid.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+
+ExecStart=/usr/libexec/transix-dslite-tunnel/transix-dslite-tunnel.sh up
+ExecStop=/usr/libexec/transix-dslite-tunnel/transix-dslite-tunnel.sh down
+
+[Install]
+WantedBy=multi-user.target

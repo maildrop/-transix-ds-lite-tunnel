@@ -1,0 +1,12 @@
+Source: transix-ds-lite-tunnel
+Section: main/admin
+Priority: optional
+Maintainer: Mikito TOGURO <mit@shalab.net>
+Build-Depends: debhelper (>=10) fakeroot make
+Standards-Version: 4.0.0
+Homepage: https://github.com/maildrop/transix-ds-lite-tunnel
+Package: transix-ds-lite-tunnel
+Architecture: all
+Depends: systemd, iproute2, bind9-host
+Version: 0.0.0
+Description: DS-Lite tunnel of transix.jp enabler

@@ -1,7 +1,7 @@
 
 [Unit]
 Description=transix.jp DS-Lite Tunnel Enabler
-After=network.target network-online.target nss-lookup.target
+After=network-online.target nss-lookup.target
 Before=squid.service
 
 [Service]

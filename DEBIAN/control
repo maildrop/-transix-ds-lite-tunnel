@@ -8,5 +8,5 @@ Homepage: https://github.com/maildrop/transix-ds-lite-tunnel
 Package: transix-ds-lite-tunnel
 Architecture: all
 Depends: systemd, iproute2, bind9-host
-Version: 0.0.2
+Version: 0.0.3
 Description: DS-Lite tunnel of transix.jp enabler
